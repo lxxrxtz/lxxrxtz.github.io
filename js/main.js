@@ -2,8 +2,6 @@
 (function ($) {
     "use strict";
 
-    /*==================================================================
-    [ Validate after type ]*/
     $('.validate-input .input100').each(function(){
         $(this).on('blur', function(){
             if(validate(this) == false){
@@ -15,9 +13,6 @@
         })    
     })
   
-  
-    /*==================================================================
-    [ Validate ]*/
     var input = $('.validate-input .input100');
 
     $('.validate-form').on('submit',function(){
@@ -72,7 +67,4 @@
         $(thisAlert).removeClass('alert-validate');
         $(thisAlert).find('.btn-hide-validate').remove();
     }
-    
-    
-
 })(jQuery);
