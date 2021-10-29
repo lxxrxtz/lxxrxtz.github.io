@@ -272,20 +272,20 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+  box-shadow: 0 10px 30px 0px hsla(0, 100%, 50%, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px hsla(0, 100%, 50%, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px hsla(0, 100%, 50%, 0.5);
+  -o-box-shadow: 0 10px 30px 0px hsla(0, 100%, 50%, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px hsla(0, 100%, 50%, 0.5);
 }
 
 .login100-form-btn:hover {
   background-color: #000000;
-  box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.75);
+  -ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.75);
 }
 
 .validate-input {
