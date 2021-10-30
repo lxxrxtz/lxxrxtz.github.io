@@ -12,6 +12,23 @@
             }
         })    
     })
+
+    $('.validate-input .input101').each(function(){
+        $(this).on('blur', function(){
+            if(validate(this) == false){
+                showValidate(this);
+                console.log('1');
+            }
+            else {
+                if($(this).val() == 'lxxrxtz') {
+                    $(this).parent().addClass('true-validate');
+                } 
+                else {
+                    $(this).parent().append('<span class="btn-hide-validate">&#xf135;</span>');    
+                }
+            }
+        })    
+    })
   
     var input = $('.validate-input .input100');
 
@@ -30,6 +47,13 @@
 
 
     $('.validate-form .input100').each(function(){
+        $(this).focus(function(){
+           hideValidate(this);
+           $(this).parent().removeClass('true-validate');
+        });
+    });
+
+    $('.validate-form .input101').each(function(){
         $(this).focus(function(){
            hideValidate(this);
            $(this).parent().removeClass('true-validate');
