@@ -39,7 +39,7 @@
      function validate (input) {
         if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
             if($(input).val().trim().match(/lxxrxtz/g) == null) {
-                return false;
+                return true;
             }
         }
         else {
